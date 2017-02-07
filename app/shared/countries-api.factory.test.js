@@ -1,4 +1,4 @@
-/*describe('countries-api', function (){
+describe('countries-api', function (){
   var service;
   var $httpBackend;
   var url = 'https://restcountries.eu/rest/v1/region/Europe';
@@ -21,4 +21,4 @@
     expect(promiseResult.status).toEqual(200);
   });
 
-});*/
+});
