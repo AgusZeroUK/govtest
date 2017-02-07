@@ -136,3 +136,24 @@ Sources built for production. Everything is validated, things are concatenated a
     
 Pretty self-explanatory.
 
+### Running Unit Tests
+
+The angular-seed app comes preconfigured with unit tests. These are written in
+[Jasmine][jasmine], which we run with the [Karma Test Runner][karma]. We provide a Karma
+configuration file to run them.
+
+* the configuration is found at `karma.conf.js`
+* the unit tests are found next to the code they are testing and are named as `..._test.js`.
+
+The easiest way to run the unit tests is to use the supplied npm script:
+
+```
+npm test
+```
+
+This script will start the Karma test runner to execute the unit tests. Moreover, Karma will sit and
+watch the source and test files for changes and then re-run the tests whenever any of them change.
+This is the recommended strategy; if your unit tests are being run every time you save a file then
+you receive instant feedback on any changes that break the expected code functionality.
+
+
