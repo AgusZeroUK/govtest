@@ -8,7 +8,7 @@ angular
 function countriesApi($http){
     var factory;
 
-    var apiUrl = ' https://restcountries.eu/rest/v1/region/Europe';
+    var apiUrl = 'https://restcountries.eu/rest/v1/region/Europe';
 
     factory = {
         getCountries: getCountries,

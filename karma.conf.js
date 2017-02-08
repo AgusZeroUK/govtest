@@ -6,6 +6,7 @@ module.exports = function(config){
     files : [
       'bower_components/angular/angular.js',
       'https://npmcdn.com/@angular/router@0.2.0/angular1/angular_1_router.js',
+      'bower_components/angular-mocks/angular-mocks.js',
       'app/app/*.js',
       'app/personal-details/*.js',
       'app/confirmation/*.js',

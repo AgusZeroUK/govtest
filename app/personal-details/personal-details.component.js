@@ -24,7 +24,9 @@
             activate();
 
             function activate(){
-                countriesApi.getCountries().then(populateCountries);
+                countriesApi.getCountries().then(populateCountries).catch(function(error){
+                    $ctrl.countries = undefined;
+                });
             }
 
             function populateCountries(countries){
